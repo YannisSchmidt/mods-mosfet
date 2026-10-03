@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mosfet:block/nmos_mosfet",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mosfet:block/nmos_mosfet"
+    },
+    "facing=south": {
+      "model": "mosfet:block/nmos_mosfet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mosfet:block/nmos_mosfet",
+      "y": 270
+    }
+  }
+}

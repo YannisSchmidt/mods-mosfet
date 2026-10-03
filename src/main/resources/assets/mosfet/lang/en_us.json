@@ -1,0 +1,4 @@
+{
+  "block.mosfet.nmos_mosfet": "NMOS MOSFET (N-channel)",
+  "block.mosfet.cmos_mosfet": "CMOS MOSFET (P-channel)"
+}

@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "mosfet",
+	"version": "${version}",
+	"name": "MOSFET",
+	"description": "Ajoute deux transistors MOSFET a la redstone : un canal N (NMOS) et un canal P (CMOS).",
+	"authors": [
+		"Yannis Schmidt"
+	],
+	"contact": {
+		"homepage": "https://github.com/YannisSchmidt/mods-mosfet",
+		"sources": "https://github.com/YannisSchmidt/mods-mosfet",
+		"issues": "https://github.com/YannisSchmidt/mods-mosfet/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/mosfet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.yannis.mosfet.MosfetMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

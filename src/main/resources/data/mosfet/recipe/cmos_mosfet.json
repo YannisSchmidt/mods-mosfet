@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": "minecraft:redstone",
+    "Q": "minecraft:quartz",
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "CCC",
+    "RQR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mosfet:cmos_mosfet"
+  }
+}
