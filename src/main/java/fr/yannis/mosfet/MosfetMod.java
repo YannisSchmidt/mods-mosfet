@@ -46,7 +46,9 @@ public class MosfetMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.REDSTONE_BLOCKS).register((group, entries) -> {
+		// En Fabric API 1.21.11, ModifyEntries#modifyEntries ne prend que les entrees
+		// en parametre (le groupe n'est plus passe).
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.REDSTONE_BLOCKS).register(entries -> {
 			entries.accept(NMOS_MOSFET);
 			entries.accept(CMOS_MOSFET);
 		});
